@@ -82,37 +82,32 @@ main .galeria h2 {
   color: black;
   margin-bottom: 10px; }
 
-main .galeria .grid-galeria div {
+main .galeria .grid-galeria {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 325px;
   gap: 10px;
   margin-bottom: 10px; }
+  main .galeria .grid-galeria img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 6px 28px 5px rgba(255, 235, 205, 0.75);
+    -webkit-box-shadow: 10px 6px 28px 5px rgba(255, 235, 205, 0.75);
+    -moz-box-shadow: 10px 6px 28px 5px rgba(255, 235, 205, 0.75); }
+  main .galeria .grid-galeria .sarahuno {
+    grid-column: span 2;
+    grid-row: span 3; }
+  main .galeria .grid-galeria .sarahsiete {
+    grid-row: span 3; }
+  main .galeria .grid-galeria .sarahocho {
+    grid-row: span 2; }
+  main .galeria .grid-galeria .sarahnueve {
+    grid-row: span 2; }
 
-main .galeria .grid-galeria img {
-  width: 100%;
-  height: 100%;
-  box-shadow: 10px 6px 28px 5px rgba(255, 235, 205, 0.75);
-  -webkit-box-shadow: 10px 6px 28px 5px rgba(255, 235, 205, 0.75);
-  -moz-box-shadow: 10px 6px 28px 5px rgba(255, 235, 205, 0.75); }
-
-main .galeria .grid-galeria .sarahuno {
-  grid-column: span 2;
-  grid-row: span 3; }
-
-main .galeria .grid-galeria .sarahsiete {
-  grid-row: span 3; }
-
-main .galeria .grid-galeria .sarahocho {
-  grid-row: span 2; }
-
-main .galeria .grid-galeria .sarahnueve {
-  grid-row: span 2; }
-
-footer {
+.footer {
   background-color: black; }
-  footer h2 {
+  .footer div h2 {
     color: blanchedalmond; }
-    footer h2 div img {
-      width: 75px;
-      height: 75px; }
+  .footer div a img {
+    width: 70px;
+    height: 70px; }

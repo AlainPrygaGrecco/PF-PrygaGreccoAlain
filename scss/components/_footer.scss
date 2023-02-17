@@ -1,12 +1,33 @@
-footer{
+// footer {
+//     background-color: black;
+
+//     h2 {
+//         color: blanchedalmond;
+
+//         div {
+
+//             a {
+//                 img {
+//                     width: 75px;
+//                     height: 75px;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+.footer {
     background-color: black;
-        h2{
+
+    div {
+        h2 {
             color: blanchedalmond;
-            div{
-                img{
-                    width: 75px;
-                    height: 75px;
-                }
+        }
+        a{
+            img{
+                width: 70px;
+                height: 70px;
             }
         }
     }
+}
