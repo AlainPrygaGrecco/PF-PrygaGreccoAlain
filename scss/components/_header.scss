@@ -1,0 +1,46 @@
+/*-------------------------------header--------------------------*/
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    h1{
+        font-size: 80px;
+        font-family: 'Great Vibes', cursive;
+        text-align: center;
+        color: blanchedalmond;
+        padding: 5px;
+        margin: 5px;
+    }
+    nav{
+        ul{
+            display: flex;
+            font-size: 40px;
+            font-weight:600;
+            li{
+                margin: 15px 20px 20px 15px;
+                transition: 1.5s;
+                &:hover{
+                transform: scale(1.1);
+                }
+                &:hover{
+                    a{
+                color:darkmagenta;
+                    }
+                }
+                a{
+                    color: blanchedalmond;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+header{
+        a{
+            text-decoration: none;
+        }
+
+    }

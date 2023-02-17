@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Great+Vibes&family=Kanit:ital,wght@1,100;1,300&family=Mitr:wght@200&family=Parisienne&family=Poppins:ital,wght@0,300;1,400&family=Sacramento&family=Satisfy&family=Sofia+Sans+Extra+Condensed:ital,wght@1,500&family=Tangerine&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Mitr', sans-serif;
+  font-size: 30px; }
+
+/*-------------------------------header--------------------------*/
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black; }
+  header h1 {
+    font-size: 80px;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    color: blanchedalmond;
+    padding: 5px;
+    margin: 5px; }
+  header nav ul {
+    display: flex;
+    font-size: 40px;
+    font-weight: 600; }
+    header nav ul li {
+      margin: 15px 20px 20px 15px;
+      transition: 1.5s; }
+      header nav ul li:hover {
+        transform: scale(1.1); }
+      header nav ul li:hover a {
+        color: darkmagenta; }
+      header nav ul li a {
+        color: blanchedalmond;
+        text-decoration: none; }
+
+header a {
+  text-decoration: none; }
+
+main .bienvenidos {
+  text-align: center;
+  color: black;
+  background-color: blanchedalmond;
+  font-family: 'Mitr', sans-serif;
+  font-size: 35px; }
+
+main .hero {
+  background-image: url("../img/sarahjpg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  padding: 30px;
+  text-align: center;
+  color: blanchedalmond; }
+  main .hero a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    font-size: 24px; }
+
+main .fanpage {
+  text-align: center;
+  color: blanchedalmond;
+  background-color: black;
+  font-family: 'Mitr', sans-serif;
+  font-size: 35px; }
+
+main .galeria h2 {
+  text-align: center;
+  background-color: blanchedalmond;
+  color: black;
+  margin-bottom: 10px; }
+
+main .galeria .grid-galeria div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 325px;
+  gap: 10px;
+  margin-bottom: 10px; }
+
+main .galeria .grid-galeria img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 10px 6px 28px 5px rgba(255, 235, 205, 0.75);
+  -webkit-box-shadow: 10px 6px 28px 5px rgba(255, 235, 205, 0.75);
+  -moz-box-shadow: 10px 6px 28px 5px rgba(255, 235, 205, 0.75); }
+
+main .galeria .grid-galeria .sarahuno {
+  grid-column: span 2;
+  grid-row: span 3; }
+
+main .galeria .grid-galeria .sarahsiete {
+  grid-row: span 3; }
+
+main .galeria .grid-galeria .sarahocho {
+  grid-row: span 2; }
+
+main .galeria .grid-galeria .sarahnueve {
+  grid-row: span 2; }
+
+footer {
+  background-color: black; }
+  footer h2 {
+    color: blanchedalmond; }
+    footer h2 div img {
+      width: 75px;
+      height: 75px; }
