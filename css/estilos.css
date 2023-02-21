@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Great+Vibes&family=Kanit:ital,wght@1,100;1,300&family=Mitr:wght@200&family=Parisienne&family=Poppins:ital,wght@0,300;1,400&family=Sacramento&family=Satisfy&family=Sofia+Sans+Extra+Condensed:ital,wght@1,500&family=Tangerine&display=swap");
 * {
   margin: 0px;
@@ -7,6 +8,27 @@
 body {
   font-family: 'Mitr', sans-serif;
   font-size: 30px; }
+
+table {
+  border-collapse: collapse;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px; }
+
+td, th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: start;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+th {
+  background-color: blanchedalmond; }
 
 /*-------------------------------header--------------------------*/
 header {
@@ -41,6 +63,7 @@ header {
 header a {
   text-decoration: none; }
 
+/*-----------------------INDEX-------------------*/
 main .bienvenidos {
   text-align: center;
   color: black;
@@ -104,10 +127,298 @@ main .galeria .grid-galeria {
   main .galeria .grid-galeria .sarahnueve {
     grid-row: span 2; }
 
-.footer {
-  background-color: black; }
-  .footer div h2 {
+.seccionmedia {
+  background-image: url(../img/sarahvioleta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+  .seccionmedia .sectorcompra {
     color: blanchedalmond; }
-  .footer div a img {
-    width: 70px;
-    height: 70px; }
+    .seccionmedia .sectorcompra div {
+      border: 3px solid;
+      width: 620px;
+      height: 450px;
+      margin: 5px;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      font-size: 25px; }
+      .seccionmedia .sectorcompra div img {
+        width: 614px;
+        height: 350px; }
+      .seccionmedia .sectorcompra div a {
+        text-decoration: none;
+        color: blanchedalmond;
+        font-weight: bold;
+        font-size: 24px;
+        font-weight: bold;
+        background-color: black;
+        padding: 3px 3px; }
+
+.iconsimb {
+  position: fixed;
+  right: 50px;
+  bottom: 50px; }
+
+/*---------------BIOGRAFÍA---------------------*/
+.herobio {
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: solid; }
+  .herobio .cita {
+    text-align: end; }
+
+.textobiografia {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px; }
+  .textobiografia .presentacion {
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond; }
+    .textobiografia .presentacion div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: justify;
+      padding: 5px;
+      margin: 5px; }
+    .textobiografia .presentacion img {
+      width: 500px;
+      height: 500px; }
+  .textobiografia .primerosanios {
+    display: flex;
+    align-items: center; }
+    .textobiografia .primerosanios div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: justify;
+      padding: 5px;
+      margin: 5px; }
+    .textobiografia .primerosanios img {
+      width: 500px;
+      height: 550px; }
+  .textobiografia .teatro {
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center; }
+    .textobiografia .teatro div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: justify;
+      padding: 5px;
+      margin: 5px; }
+    .textobiografia .teatro img {
+      width: 500px;
+      height: 550px; }
+  .textobiografia .carrerasolista {
+    display: flex;
+    align-items: center; }
+    .textobiografia .carrerasolista div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: justify;
+      padding: 5px;
+      margin: 5px; }
+    .textobiografia .carrerasolista img {
+      width: 487px;
+      height: 450px; }
+  .textobiografia .exitointernacional {
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center; }
+    .textobiografia .exitointernacional div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: justify;
+      padding: 5px;
+      margin: 5px; }
+    .textobiografia .exitointernacional img {
+      width: 487px;
+      height: 877px; }
+  .textobiografia .symphonys {
+    display: flex;
+    align-items: center; }
+    .textobiografia .symphonys div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: justify;
+      padding: 5px;
+      margin: 5px; }
+    .textobiografia .symphonys img {
+      width: 550px;
+      height: 900px; }
+  .textobiografia .viaje {
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center; }
+    .textobiografia .viaje div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: justify;
+      padding: 5px;
+      margin: 5px; }
+    .textobiografia .viaje img {
+      width: 650px;
+      height: 700px; }
+  .textobiografia .musicayvoz {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center; }
+    .textobiografia .musicayvoz h2 {
+      text-align: center;
+      margin-bottom: 50px; }
+    .textobiografia .musicayvoz div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: justify;
+      padding: 5px;
+      margin: 5px; }
+    .textobiografia .musicayvoz img {
+      width: 600px;
+      height: 650px; }
+
+/*-------------------------DISCOGRAFÍA-------------------*/
+.discografiatitulo {
+  text-align: center; }
+
+.discosycancionesparteuno {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .discosycancionesparteuno img {
+    width: 300px;
+    height: 300px; }
+  .discosycancionesparteuno div {
+    padding: 50px; }
+
+.discosycancionespartedos {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .discosycancionespartedos img {
+    width: 300px;
+    height: 300px; }
+  .discosycancionespartedos div {
+    padding: 50px; }
+
+.discosycancionespartetres {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .discosycancionespartetres img {
+    width: 300px;
+    height: 300px; }
+  .discosycancionespartetres div {
+    padding: 50px; }
+
+.discosycancionespartecuatro {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .discosycancionespartecuatro img {
+    width: 300px;
+    height: 300px; }
+  .discosycancionespartecuatro div {
+    padding: 50px; }
+
+.discosycancionespartecinco {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .discosycancionespartecinco img {
+    width: 300px;
+    height: 300px; }
+  .discosycancionespartecinco div {
+    padding: 50px; }
+
+.discosycancionesparteseis {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .discosycancionesparteseis img {
+    width: 300px;
+    height: 300px; }
+  .discosycancionesparteseis div {
+    padding: 50px; }
+
+/*--------------------------------------------------------------FILMOGRAFÍA-----------------------------------*/
+main .tablasfilmografia h2 {
+  text-align: center;
+  margin-top: 50px; }
+
+main .tablamusical {
+  margin-bottom: 50px; }
+
+/*--------------------------------------------------------------PREMIOS-----------------------------------*/
+main .tablabendita {
+  margin-bottom: 50px; }
+  main .tablabendita h2 {
+    text-align: center;
+    margin-top: 50px; }
+
+/*--------------------------------------------------------------CONTACTO--------------------------------------*/
+main .acercademi {
+  font-family: 'Mitr', sans-serif;
+  font-size: 24px;
+  text-align: start;
+  margin: 5px;
+  padding: 5px;
+  display: flex; }
+  main .acercademi div h2 {
+    text-align: center; }
+  main .acercademi img {
+    height: 350px;
+    width: 350px; }
+
+footer {
+  background-color: black; }
+  footer div {
+    margin-left: 5px; }
+    footer div h2 {
+      color: blanchedalmond; }
+    footer div a img {
+      width: 70px;
+      height: 70px; }
+
+/*-------------------------------------------FOOTER CONTACTO---------------------------------------*/
+.footercontacto {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  bottom: 0;
+  width: 100%;
+  position: absolute; }
+  .footercontacto .whatsapp {
+    margin-right: 30px;
+    margin-top: 50px;
+    text-align: end;
+    color: blanchedalmond; }

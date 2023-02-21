@@ -1,25 +1,8 @@
-// footer {
-//     background-color: black;
-
-//     h2 {
-//         color: blanchedalmond;
-
-//         div {
-
-//             a {
-//                 img {
-//                     width: 75px;
-//                     height: 75px;
-//                 }
-//             }
-//         }
-//     }
-// }
-
-.footer {
+footer {
     background-color: black;
 
     div {
+        margin-left: 5px;
         h2 {
             color: blanchedalmond;
         }
@@ -29,5 +12,20 @@
                 height: 70px;
             }
         }
+    }
+}
+/*-------------------------------------------FOOTER CONTACTO---------------------------------------*/
+.footercontacto{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    .whatsapp{
+        margin-right: 30px;
+        margin-top: 50px;
+        text-align: end;
+        color: blanchedalmond;
     }
 }
