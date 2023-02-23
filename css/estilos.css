@@ -501,7 +501,7 @@ footer {
         height: 40px; } }
 
 /*---------------------------------------------BIOGRAFÍA MQ----------------------------------------------------*/
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1220px) {
   .herobio p {
     padding: 3px;
     margin: 5px;
@@ -513,4 +513,110 @@ footer {
     margin: 5px;
     text-align: end;
     font-size: 15px;
-    width: 90%; } }
+    width: 90%; }
+  .textobiografia {
+    font-size: 15px; }
+    .textobiografia .presentacion {
+      flex-direction: column; }
+      .textobiografia .presentacion div {
+        text-align: center;
+        width: 90%;
+        height: 90%; }
+      .textobiografia .presentacion img {
+        width: 90%;
+        height: 90%; }
+    .textobiografia .primerosanios {
+      flex-direction: column; }
+      .textobiografia .primerosanios div {
+        text-align: center;
+        width: 90%;
+        height: 90%; }
+      .textobiografia .primerosanios img {
+        width: 90%;
+        height: 90%; }
+    .textobiografia .teatro {
+      flex-direction: column; }
+    .textobiografia .teatro div {
+      text-align: center;
+      width: 95%;
+      height: 95%; }
+    .textobiografia img {
+      width: 90%;
+      height: 90%; }
+    .textobiografia .carrerasolista {
+      flex-direction: column; }
+    .textobiografia .carrerasolista div {
+      text-align: center;
+      width: 90%;
+      height: 90%; }
+    .textobiografia img {
+      width: 90%;
+      height: 90%; }
+    .textobiografia .exitointernacional {
+      flex-direction: column; }
+    .textobiografia .exitointernacional div {
+      text-align: center;
+      width: 90%;
+      height: 90%; }
+    .textobiografia img {
+      width: 90%;
+      height: 90%; }
+    .textobiografia .symphonys {
+      flex-direction: column; }
+    .textobiografia .symphonys div {
+      text-align: center;
+      width: 90%;
+      height: 90%; }
+    .textobiografia img {
+      width: 90%;
+      height: 90%; }
+    .textobiografia .viaje {
+      flex-direction: column; }
+    .textobiografia .viaje div {
+      text-align: center;
+      width: 90%;
+      height: 90%; }
+    .textobiografia img {
+      width: 90%;
+      height: 90%; }
+    .textobiografia .musicayvoz {
+      flex-direction: column; }
+    .textobiografia .musicayvoz div {
+      text-align: center;
+      width: 90%; }
+      .textobiografia .musicayvoz div h2 {
+        margin-top: 50px; }
+    .textobiografia .musicayvoz img {
+      width: 95%;
+      height: 90%;
+      margin-bottom: 5px; } }
+
+/*---------------------------------------------DISCOGRAFÍA MQ----------------------------------------------------*/
+@media screen and (max-width: 1655px) {
+  .discografiatitulo {
+    font-size: 20px;
+    margin-top: 30px; }
+  .discosycancionesparteuno {
+    flex-direction: column; }
+    .discosycancionesparteuno div {
+      font-size: 15px; }
+  .discosycancionespartedos {
+    flex-direction: column; }
+    .discosycancionespartedos div {
+      font-size: 15px; }
+  .discosycancionespartetres {
+    flex-direction: column; }
+    .discosycancionespartetres div {
+      font-size: 15px; }
+  .discosycancionespartecuatro {
+    flex-direction: column; }
+    .discosycancionespartecuatro div {
+      font-size: 15px; }
+  .discosycancionespartecinco {
+    flex-direction: column; }
+    .discosycancionespartecinco div {
+      font-size: 15px; }
+  .discosycancionesparteseis {
+    flex-direction: column; }
+    .discosycancionesparteseis div {
+      font-size: 15px; } }

@@ -143,7 +143,7 @@ main{
                     }
                 }
                 /*---------------------------------------------BIOGRAFÍA MQ----------------------------------------------------*/
-                @media screen and (max-width:1100px){
+                @media screen and (max-width:1220px){
                     .herobio{
                         p{
                             padding: 3px;
@@ -160,4 +160,152 @@ main{
                                 width: 90%;
                             }
                 }
+                .textobiografia{
+                    font-size: 15px;
+                    .presentacion{
+                        flex-direction: column;
+                        div{
+                            text-align: center;
+                            width: 90%;
+                            height: 90%;
+                        }
+                        img{
+                            width: 90%;
+                            height: 90%;
+                        }
+                    }
+                .primerosanios{
+                    flex-direction: column;
+                    div{
+                        text-align: center;
+                            width: 90%;
+                            height: 90%;
                 }
+                img{ 
+                    width: 90%;
+                    height: 90%;
+                }
+            }
+                .teatro{
+                    flex-direction: column;
+                }
+                .teatro div{
+                    text-align: center;
+                    width: 95%;
+                    height: 95%;
+                }
+                img{
+                    width: 90%;
+                    height: 90%;
+                }
+                .carrerasolista{
+                    flex-direction: column;
+                }
+                .carrerasolista div{
+                    text-align: center;
+                    width: 90%;
+                    height: 90%;
+                }
+                img{
+                    width: 90%;
+                    height: 90%;
+                }
+                .exitointernacional{
+                    flex-direction: column;
+                }
+                .exitointernacional div{
+                    text-align: center;
+                    width: 90%;
+                    height: 90%;
+                }
+                img{
+                    width: 90%;
+                    height: 90%;
+                }
+                .symphonys{
+                    flex-direction: column;
+                }
+                .symphonys div{
+                    text-align: center;
+                    width: 90%;
+                    height: 90%;
+                }
+                img{
+                    width: 90%;
+                    height: 90%;
+                }
+                .viaje{
+                    flex-direction: column;
+                }
+                .viaje div{
+                    text-align: center;
+                    width: 90%;
+                    height: 90%;
+                }
+                img{
+                    width: 90%;
+                    height: 90%;
+                }
+                .musicayvoz{
+                    flex-direction: column;
+                }
+                .musicayvoz div{
+                    text-align: center;
+                    width: 90%;
+                    h2{
+                        margin-top: 50px;
+                    }
+                }
+                .musicayvoz {
+                    img{
+                    width: 95%;
+                    height: 90%;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+    /*---------------------------------------------DISCOGRAFÍA MQ----------------------------------------------------*/
+
+    @media screen and (max-width:1655px){
+        .discografiatitulo{
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        .discosycancionesparteuno{
+            flex-direction: column;
+            div{
+            font-size: 15px;
+            }
+        }
+        .discosycancionespartedos{
+            flex-direction: column;
+            div{
+            font-size: 15px;
+            }
+        }
+        .discosycancionespartetres{
+            flex-direction: column;
+            div{
+            font-size: 15px;
+            }
+        }
+        .discosycancionespartecuatro{
+            flex-direction: column;
+            div{
+            font-size: 15px;
+            }
+        }
+        .discosycancionespartecinco{
+            flex-direction: column;
+            div{
+            font-size: 15px;
+            }
+        }
+        .discosycancionesparteseis{
+            flex-direction: column;
+            div{
+            font-size: 15px;
+            }
+        }
+    }
