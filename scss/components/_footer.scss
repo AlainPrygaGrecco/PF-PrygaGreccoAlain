@@ -1,10 +1,10 @@
 footer {
-    background-color: black;
+    background-color: $color-primario;
 
     div {
         margin-left: 5px;
         h2 {
-            color: blanchedalmond;
+            color: $color-secundario;
         }
         a{
             img{
@@ -18,7 +18,7 @@ footer {
 .footercontacto{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: $color-primario;
     bottom: 0;
     width: 100%;
     position: absolute;
@@ -26,6 +26,6 @@ footer {
         margin-right: 30px;
         margin-top: 50px;
         text-align: end;
-        color: blanchedalmond;
+        color: $color-secundario;
     }
 }

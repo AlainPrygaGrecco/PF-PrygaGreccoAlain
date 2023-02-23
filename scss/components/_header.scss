@@ -5,19 +5,19 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:black;
+    background-color: $color-primario;
     h1{
-        font-size: 80px;
+        font-size: nth($font-size,9);
         font-family: 'Great Vibes', cursive;
         text-align: center;
-        color: blanchedalmond;
+        color: $color-secundario;
         padding: 5px;
         margin: 5px;
     }
     nav{
         ul{
             display: flex;
-            font-size: 40px;
+            font-size: nth($font-size,8);
             font-weight:600;
             li{
                 margin: 15px 20px 20px 15px;
@@ -31,7 +31,7 @@ header{
                     }
                 }
                 a{
-                    color: blanchedalmond;
+                    color: $color-secundario;
                     text-decoration: none;
                 }
             }

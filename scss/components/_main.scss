@@ -2,10 +2,10 @@
 main {
     .bienvenidos {
         text-align: center;
-        color: black;
-        background-color: blanchedalmond;
+        color: $color-primario;
+        background-color: $color-secundario;
         font-family: 'Mitr', sans-serif;
-        font-size: 35px;
+        font-size: nth($font-size,7);
     }
 
     .hero {
@@ -21,30 +21,30 @@ main {
         align-items: flex-start;
         padding: 30px;
         text-align: center;
-        color: blanchedalmond;
+        color: $color-secundario;
 
         a {
             text-decoration: none;
             color: white;
             font-weight: bold;
             background-color: black;
-            font-size: 24px;
+            font-size: nth($font-size,4);
         }
     }
 
     .fanpage {
         text-align: center;
-        color: blanchedalmond;
-        background-color: black;
+        color: $color-secundario;
+        background-color: $color-primario;
         font-family: 'Mitr', sans-serif;
-        font-size: 35px;
+        font-size: nth($font-size,7);
     }
 
     .galeria {
         h2 {
             text-align: center;
-            background-color: blanchedalmond;
-            color: black;
+            background-color: $color-secundario;
+            color: $color-primario;
             margin-bottom: 10px;
         }
 
@@ -92,7 +92,7 @@ main {
     justify-content: center;
     align-items: flex-end;
     .sectorcompra{
-        color: blanchedalmond;
+        color: $color-secundario;
             div{
                 border: 3px solid;
                 width: 620px;
@@ -107,11 +107,11 @@ main {
                         }
                         a{
                             text-decoration: none;
-                            color: blanchedalmond;
+                            color: $color-secundario;
                             font-weight: bold;
-                            font-size: 24px;
+                            font-size: nth($font-size,4);
                             font-weight: bold;
-                            background-color: black;
+                            background-color: $color-primario;
                             padding: 3px 3px;
                     }
                 }
@@ -134,18 +134,14 @@ main {
         }
     .textobiografia{
         font-family: 'Poppins', sans-serif;
-        font-size: 20px;
+        font-size: nth($font-size,2);
         .presentacion{
-            display: flex;
-            align-items: center;
-            background-color: blanchedalmond;
+            @extend %display;
+            background-color: $color-secundario;
             div{
-                display: flex;
-                flex-direction: column;
-                justify-content:center;
-                text-align:justify;
                 padding: 5px;
                 margin: 5px;
+                @extend %flex;
                     }
                     img{
                         width: 500px;
@@ -153,13 +149,9 @@ main {
                     }
                 }
                 .primerosanios{
-                    display: flex;
-                    align-items: center;
+                    @extend %display;
                     div{
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        text-align: justify;
+                        @extend %flex;
                         padding: 5px;
                         margin: 5px;
                 }
@@ -169,63 +161,47 @@ main {
                         }
         }
     .teatro{
-        background-color: blanchedalmond;
-        display: flex;
-        align-items: center;
+        background-color: $color-secundario;
+        @extend %display;
         div{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: justify;
+            @extend %flex;
             padding: 5px;
             margin: 5px;
         }
             img{
-                width: 500px;
-                height: 550px;
+                width: 450px;
+                height: 500px;
             }
         }
     .carrerasolista{
-        display: flex;
-        align-items: center;
+        @extend %display;
         div{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: justify;
+            @extend %flex;
             padding: 5px;
             margin: 5px;
         }
         img{
-            width: 487px;
+            width: 470px;
             height: 450px;
         }
     }
         .exitointernacional{
-            background-color: blanchedalmond;
-            display: flex;
-            align-items: center;
+            background-color: $color-secundario;
+            @extend %display;
             div{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                text-align: justify;
+                @extend %flex;
                 padding: 5px;
                 margin: 5px;
             }
             img{
                 width: 487px;
-                height: 877px;
+                height: 800px;
             }
         }
         .symphonys{
-            display: flex;
-            align-items: center;
+            @extend %display;
             div{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                text-align: justify;
+                @extend %flex;
                 padding: 5px;
                 margin: 5px;
             }
@@ -235,14 +211,10 @@ main {
             }
         }
         .viaje{
-            background-color: blanchedalmond;
-            display: flex;
-            align-items: center;
+            background-color: $color-secundario;
+            @extend %display;
             div{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                text-align: justify;
+                @extend %flex;
                 padding: 5px;
                 margin: 5px;
             }
@@ -253,17 +225,13 @@ main {
         }
         .musicayvoz{
             font-family: 'Poppins', sans-serif;
-            display: flex;
-            align-items: center;
+            @extend %display;
             h2{
                 text-align: center;
                 margin-bottom: 50px;
             }
                 div{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    text-align: justify;
+                    @extend %flex;
                     padding: 5px;
                     margin: 5px;
                 }
@@ -278,12 +246,7 @@ main {
         text-align: center;
     }
     .discosycancionesparteuno{
-        font-family: 'Poppins', sans-serif;
-        font-size: 20px;
-        padding: 25px;
-        display: flex;
-        align-items: center;
-        justify-content:space-between;
+        @extend %propiedadesdiscografia;
         img{
             width: 300px;
             height: 300px;
@@ -293,12 +256,7 @@ main {
         }
     }
     .discosycancionespartedos{
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    padding: 25px;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
+        @extend %propiedadesdiscografia;
         img{
             width: 300px;
             height: 300px;
@@ -308,12 +266,7 @@ main {
         }
     }
     .discosycancionespartetres{
-        font-family: 'Poppins', sans-serif;
-        font-size: 20px;
-        padding: 25px;
-        display: flex;
-        align-items: center;
-        justify-content:space-between;
+        @extend %propiedadesdiscografia;
         img{
             width: 300px;
             height: 300px;
@@ -323,12 +276,7 @@ main {
         }
     }
     .discosycancionespartecuatro{
-        font-family: 'Poppins', sans-serif;
-        font-size: 20px;
-        padding: 25px;
-        display: flex;
-        align-items: center;
-        justify-content:space-between;
+        @extend %propiedadesdiscografia;
         img{
             width: 300px;
             height: 300px;
@@ -338,12 +286,7 @@ main {
         }
     }
     .discosycancionespartecinco{
-        font-family: 'Poppins', sans-serif;
-        font-size: 20px;
-        padding: 25px;
-        display: flex;
-        align-items: center;
-        justify-content:space-between;
+        @extend %propiedadesdiscografia;
         img{
             width: 300px;
             height: 300px;
@@ -353,12 +296,7 @@ main {
         }
     }
     .discosycancionesparteseis{
-        font-family: 'Poppins', sans-serif;
-        font-size: 20px;
-        padding: 25px;
-        display: flex;
-        align-items: center;
-        justify-content:space-between;
+        @extend %propiedadesdiscografia;
         img{
             width: 300px;
             height: 300px;
@@ -393,7 +331,7 @@ main{
 main{
     .acercademi{
         font-family: 'Mitr', sans-serif;
-        font-size: 24px;
+        font-size: nth($font-size,4);
         text-align: start;
         margin: 5px;
         padding: 5px;
