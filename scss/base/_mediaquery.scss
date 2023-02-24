@@ -213,12 +213,13 @@
             flex-direction: column;
 
             div {
-                @include divbio (center, 90%, 90%);
+                text-align: center;
+                //@include divbio (center, 90%, 90%);
+            
             }
-
             img {
-                width: 90%;
-                height: 90%;
+                width: 345px;
+                height: 400px;
             }
         }
 
@@ -226,85 +227,90 @@
             flex-direction: column;
 
             div {
-                @include divbio (center, 90%, 90%);
+                text-align: center;
             }
 
             img {
-                width: 90%;
-                height: 90%;
+                width: 345px;
+                height: 450px;
             }
         }
 
         .teatro {
             flex-direction: column;
-        }
+        
 
         .teatro div {
-            @include divbio (center, 95%, 95%);
+            text-align: center;
         }
 
         img {
-            width: 90%;
-            height: 90%;
+            width: 345px;
+            height: 450px;
         }
+    }
 
         .carrerasolista {
             flex-direction: column;
-        }
+        
 
         .carrerasolista div {
-            @include divbio (center, 90%, 90%);
+            text-align: center;
         }
 
         img {
-            width: 90%;
-            height: 90%;
+            width: 345px;
+            height: 400px;
         }
+    }
 
         .exitointernacional {
             flex-direction: column;
-        }
+        
 
         .exitointernacional div {
-            @include divbio (center, 90%, 90%);
+            text-align: center;
         }
 
         img {
-            width: 90%;
-            height: 90%;
+            width: 345px;
+                height: 450px;
         }
+    }
 
         .symphonys {
             flex-direction: column;
-        }
+        
 
         .symphonys div {
-            @include divbio (center, 90%, 90%);
+            text-align: center;
         }
 
         img {
-            width: 90%;
-            height: 90%;
+            width: 345px;
+                height: 450px;
         }
+    }
 
         .viaje {
             flex-direction: column;
-        }
+        
 
         .viaje div {
-            @include divbio (center, 90%, 90%);
+            text-align: center;
         }
 
         img {
-            width: 90%;
-            height: 90%;
+            width: 345px;
+                height: 400px;
         }
+    }
 
         .musicayvoz {
             flex-direction: column;
-        }
+        
 
-        .musicayvoz div {
+        div{
             text-align: center;
             width: 90%;
 
@@ -312,16 +318,14 @@
                 margin-top: 50px;
             }
         }
-
-        .musicayvoz {
             img {
-                width: 95%;
-                height: 90%;
+                width: 345px;
+                height: 400px;
                 margin-bottom: 5px;
+                }
             }
         }
     }
-}
 
 /*---------------------------------------------DISCOGRAFÍA MQ----------------------------------------------------*/
 
@@ -466,6 +470,6 @@
     .footercontacto {
         position: inherit;
         font-size: nth($font-size, 2);
-        margin-left: 5px;
+        padding-left: 5px;
     }
 }

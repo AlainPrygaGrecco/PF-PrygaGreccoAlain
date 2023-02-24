@@ -466,77 +466,63 @@ footer {
     .textobiografia .presentacion {
       flex-direction: column; }
       .textobiografia .presentacion div {
-        text-align: center;
-        width: 90%;
-        height: 90%; }
+        text-align: center; }
       .textobiografia .presentacion img {
-        width: 90%;
-        height: 90%; }
+        width: 345px;
+        height: 400px; }
     .textobiografia .primerosanios {
       flex-direction: column; }
       .textobiografia .primerosanios div {
-        text-align: center;
-        width: 90%;
-        height: 90%; }
+        text-align: center; }
       .textobiografia .primerosanios img {
-        width: 90%;
-        height: 90%; }
+        width: 345px;
+        height: 450px; }
     .textobiografia .teatro {
       flex-direction: column; }
-    .textobiografia .teatro div {
-      text-align: center;
-      width: 95%;
-      height: 95%; }
-    .textobiografia img {
-      width: 90%;
-      height: 90%; }
+      .textobiografia .teatro .teatro div {
+        text-align: center; }
+      .textobiografia .teatro img {
+        width: 345px;
+        height: 450px; }
     .textobiografia .carrerasolista {
       flex-direction: column; }
-    .textobiografia .carrerasolista div {
-      text-align: center;
-      width: 90%;
-      height: 90%; }
-    .textobiografia img {
-      width: 90%;
-      height: 90%; }
+      .textobiografia .carrerasolista .carrerasolista div {
+        text-align: center; }
+      .textobiografia .carrerasolista img {
+        width: 345px;
+        height: 400px; }
     .textobiografia .exitointernacional {
       flex-direction: column; }
-    .textobiografia .exitointernacional div {
-      text-align: center;
-      width: 90%;
-      height: 90%; }
-    .textobiografia img {
-      width: 90%;
-      height: 90%; }
+      .textobiografia .exitointernacional .exitointernacional div {
+        text-align: center; }
+      .textobiografia .exitointernacional img {
+        width: 345px;
+        height: 450px; }
     .textobiografia .symphonys {
       flex-direction: column; }
-    .textobiografia .symphonys div {
-      text-align: center;
-      width: 90%;
-      height: 90%; }
-    .textobiografia img {
-      width: 90%;
-      height: 90%; }
+      .textobiografia .symphonys .symphonys div {
+        text-align: center; }
+      .textobiografia .symphonys img {
+        width: 345px;
+        height: 450px; }
     .textobiografia .viaje {
       flex-direction: column; }
-    .textobiografia .viaje div {
-      text-align: center;
-      width: 90%;
-      height: 90%; }
-    .textobiografia img {
-      width: 90%;
-      height: 90%; }
+      .textobiografia .viaje .viaje div {
+        text-align: center; }
+      .textobiografia .viaje img {
+        width: 345px;
+        height: 400px; }
     .textobiografia .musicayvoz {
       flex-direction: column; }
-    .textobiografia .musicayvoz div {
-      text-align: center;
-      width: 90%; }
-      .textobiografia .musicayvoz div h2 {
-        margin-top: 50px; }
-    .textobiografia .musicayvoz img {
-      width: 95%;
-      height: 90%;
-      margin-bottom: 5px; } }
+      .textobiografia .musicayvoz div {
+        text-align: center;
+        width: 90%; }
+        .textobiografia .musicayvoz div h2 {
+          margin-top: 50px; }
+      .textobiografia .musicayvoz img {
+        width: 345px;
+        height: 400px;
+        margin-bottom: 5px; } }
 
 /*---------------------------------------------DISCOGRAFÍA MQ----------------------------------------------------*/
 @media screen and (max-width: 1655px) {
@@ -624,4 +610,4 @@ footer {
   .footercontacto {
     position: inherit;
     font-size: 20px;
-    margin-left: 5px; } }
+    padding-left: 5px; } }

@@ -36,8 +36,3 @@ $font-size:
     }
 
     //*MIXINS
-    @mixin divbio ($text, $wd, $hg){
-        text-align: $text;
-        width: $wd;
-        height: $hg;
-    }
