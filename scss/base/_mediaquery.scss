@@ -17,7 +17,7 @@
     }
 }
 
-@media screen and (max-width:1150px) {
+@media screen and (max-width:600px) {
     header {
         flex-direction: column;
 
@@ -37,7 +37,8 @@
             }
         }
     }
-
+}
+    @media screen and (max-width:1100px) {
     .bienvenidos {
         h2 {
             font-size: nth($font-size, 2);
@@ -67,7 +68,7 @@
 
             .videoresponsive {
                 height: 240px;
-                width: 100%;
+                width: 340px;
             }
         }
     }
@@ -468,7 +469,7 @@
     }
 
     .footercontacto {
-        position: inherit;
+        position:inherit;
         font-size: nth($font-size, 2);
         padding-left: 5px;
     }

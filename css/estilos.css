@@ -362,7 +362,7 @@ footer {
     header nav ul li {
       font-size: 20px; } }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 600px) {
   header {
     flex-direction: column; }
     header h1 {
@@ -372,7 +372,9 @@ footer {
       text-align: center; }
       header nav ul li {
         margin: 1px;
-        font-size: 20px; }
+        font-size: 20px; } }
+
+@media screen and (max-width: 1100px) {
   .bienvenidos h2 {
     font-size: 20px; }
   .bienvenidos p {
@@ -387,7 +389,7 @@ footer {
       font-size: 15px; }
     main .hero .videoresponsive {
       height: 240px;
-      width: 100%; }
+      width: 340px; }
   main .fanpage h2 {
     font-size: 20px; }
   main .fanpage p {
